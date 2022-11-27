@@ -1,0 +1,35 @@
+ - if you accidentally delete (package-lock.json) and (node_modules) command/type:
+  - npm install
+
+Step by step by creating this project and packages that I installed
+ - 1st I created a react-app using:
+    - npx create-react-app my-app
+ - 2nd I created a repo to the github and commit and push your project to the github folder
+ - 3rd I installed a tailwindcss using:
+    - npm install -D tailwindcss postcss autoprefixer
+    - npx tailwindcss init -p
+ - 4th I installed GUID(globally unique identifier) - this fix the problem for unique id in mapping array
+   - npm install uuid
+ - 5th Installed react-bootstrap
+   - npm install react-bootstrap bootstrap
+
+
+
+Github repo
+ - create repo in github
+ - in the document that you are working command/type:
+    - git init (initializing the git folder in your github)
+    - git add . (add all untracked files to your repo)
+    - git commit -m "message/commit"
+    - git branch -M main (creating branch)
+    - git add remote add origin https://github.com/benjiemalagayo/react.git
+    - git push -u origin main (push the commit file to your repo)
+
+
+React Hooks
+ - useState
+
+
+Using useState
+ - no.1 of state is never assign a value to the variable directly you always go through set whatever tha state is
+   - const [test, setTest] = useState() - (use the setTest to assign a value)
