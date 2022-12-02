@@ -12,6 +12,11 @@ Step by step by creating this project and packages that I installed
    - npm install uuid
  - 5th Installed react-bootstrap
    - npm install react-bootstrap bootstrap
+ - 6th Installed @headlessui/react and @heroicons/react for tailwind navbar
+   - npm install @headlessui/react
+   - npm install @heroicons/react
+  - 7th Installed react-router-dom
+   - npm install react-router-dom
 
 
 

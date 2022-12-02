@@ -3,9 +3,9 @@ import { Modal, Button } from 'react-bootstrap'
 
 const AddEmployee = (props) => {
     const [show, setShow] = useState(false)
-    const [name, setName] = useState('')
-    const [role, setRole] = useState('')
-    const [img, setImg] = useState('')
+    const [name, setName] = useState()
+    const [role, setRole] = useState()
+    const [img, setImg] = useState()
 
     const handleShow = () => {
         setShow(!show)
@@ -38,6 +38,9 @@ const AddEmployee = (props) => {
                 <form 
                     onSubmit={(e) => {
                         e.preventDefault()
+                        setName('')
+                        setRole('')
+                        setImg('')
                         props.newEmployee(name, role, img)
                     }}
                     id='editModal' 
