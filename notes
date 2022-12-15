@@ -33,8 +33,11 @@ Github repo
 
 React Hooks
  - useState
+ - useEffect
+ - useParams
+ - useNavigate
 
 
-Using useState
+Using a State Hooks
  - no.1 of state is never assign a value to the variable directly you always go through set whatever tha state is
    - const [test, setTest] = useState() - (use the setTest to assign a value)
